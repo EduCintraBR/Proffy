@@ -1,8 +1,9 @@
 import React from 'react';
+import PageHeader from '../../components/PageHeader'
 
 const TeachersForm = () => {
     return (
-        <h1>Teachers Form</h1>
+        <PageHeader title="Que bom que você quer dar aulas." />
     )
 }
 
