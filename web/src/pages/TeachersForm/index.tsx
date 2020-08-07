@@ -3,7 +3,9 @@ import PageHeader from '../../components/PageHeader'
 
 const TeachersForm = () => {
     return (
-        <PageHeader title="Que bom que você quer dar aulas." />
+        <div id="page-teacher-form" className="container">
+            <PageHeader title="Que incrível que você quer dar aulas." />
+        </div>
     )
 }
 
